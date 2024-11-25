@@ -1,0 +1,11 @@
+[package]
+name = "ping-protocol-core"
+description = "Very simple package for reading ping protocol data."
+authors = ["Yiğit Özdemir <yigitozdemir1299@gmail.com>, Patrick José Pereira <patrickelectric@gmail.com>, Raul Victor Trombin <raulvtrombin@gmail.com>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-io = "0.6.1"
+embedded-io-async = "0.6.1"
+smallvec = "1.13.2"
