@@ -3,6 +3,7 @@
 use smallvec::SmallVec;
 extern crate alloc;
 pub mod decoder;
+pub mod messages;
 
 pub const HEADER: [u8; 2] = ['B' as u8, 'R' as u8];
 
